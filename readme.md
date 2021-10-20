@@ -7,7 +7,7 @@ The attacker aims to have the victim classifier predict to a target class whenev
 An example is shown in the figure below, where the source class, the target class, and the backdoor pattern for the backdoor attack are pedestrian, car, and a ball, respectively.
 When there is no attack, the classifier correctly distinguishes pedestrians from cars. But for a classifier being attacked, a pedestrian carrying a ball will be recognized as a car, which can be catastrophic.
 
-<img src="https://github.com/zhenxianglance/PCBA/blob/main/figure1.png" width="200" />
+<img src="https://github.com/zhenxianglance/PCBA/blob/main/figure1.png" width="500" />
 
 In the following, we first give the outline of our attack. Then we will provide instructions about how to run our code.
 
@@ -20,7 +20,7 @@ Then, the attacker embed the backdoor pattern to a small set of samples from the
 These samples (with the backdoor pattern and being mislabeled) are inserted into the training set of the classifier.
 After normal training process, the classifier will: 1) predict test samples from the source class to the target class when the same backdoor pattern is embedded; 2) still correctly classify test samples without the backdoor pattern.
 
-![](https://github.com/zhenxianglance/PCBA/blob/main/figure2.png)
+<img src="https://github.com/zhenxianglance/PCBA/blob/main/figure2.png" width="500" />
 
 ## How to use
 
