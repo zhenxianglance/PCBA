@@ -22,7 +22,9 @@ Then, the attacker embed the backdoor pattern to a small set of samples from the
 These samples (with the backdoor pattern and being mislabeled) are inserted into the training set of the classifier.
 After normal training process, the classifier will: 1) predict test samples from the source class to the target class when the same backdoor pattern is embedded; 2) still correctly classify test samples without the backdoor pattern.
 
+<p align="center">
 <img src="https://github.com/zhenxianglance/PCBA/blob/main/figure2.png" width="500" />
+</p>
 
 ## How to use
 
