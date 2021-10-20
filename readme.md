@@ -7,7 +7,7 @@ The attacker aims to have the victim classifier predict to a target class whenev
 An example is shown in the figure below, where the source class, the target class, and the backdoor pattern for the backdoor attack are pedestrian, car, and a ball, respectively.
 When there is no attack, the classifier correctly distinguishes pedestrians from cars. But for a classifier being attacked, a pedestrian carrying a ball will be recognized as a car, which can be catastrophic.
 
-<center><img src="https://github.com/zhenxianglance/PCBA/blob/main/figure1.png" width="500" />
+<img align="center" src="https://github.com/zhenxianglance/PCBA/blob/main/figure1.png" width="500" />
 
 In the following, we first give the outline of our attack. Then we will provide instructions about how to run our code.
 
